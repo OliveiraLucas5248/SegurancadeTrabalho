@@ -1,0 +1,25 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{color:#333;line-height:1.6}
+header{background:#0d1b2a;position:fixed;width:100%;z-index:10}
+.header{display:flex;justify-content:space-between;align-items:center;padding:15px 0}
+.logo{color:#fff;font-weight:700}
+nav a{color:#fff;margin-left:20px;text-decoration:none}
+.container{width:90%;max-width:1100px;margin:auto}
+.hero{height:100vh;background:url('https://images.unsplash.com/photo-1504306663819-6d0d6c6b56c4') center/cover no-repeat;position:relative;display:flex;align-items:center}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.6)}
+.hero-content{position:relative;color:#fff;max-width:600px}
+.hero h2{font-size:2.8rem;margin-bottom:20px}
+.btn{display:inline-block;background:#fca311;color:#000;padding:12px 25px;text-decoration:none;font-weight:600}
+.section{padding:80px 0}
+.bg-light{background:#f5f5f5}
+.bg-dark{background:#0d1b2a;color:#fff}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;padding:25px;border-left:5px solid #fca311}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.gallery img{width:100%;height:200px;object-fit:cover}
+form input,form textarea{width:100%;padding:12px;margin-bottom:15px;border:none}
+form button{background:#fca311;border:none;padding:12px;font-weight:600;cursor:pointer}
+footer{background:#000;color:#aaa;text-align:center;padding:15px}
+.center{text-align:center;margin-bottom:40px}
+@media(max-width:768px){.grid-2{grid-template-columns:1fr}nav{display:none}}
