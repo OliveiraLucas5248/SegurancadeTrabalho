@@ -1,4 +1,4 @@
-const btn = document.querySelector('.menu-toggle');
+/*const btn = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav-menu');
 
 btn.addEventListener('click', () => {
@@ -17,3 +17,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     nav.classList.remove('active');
   });
 });
+*/
