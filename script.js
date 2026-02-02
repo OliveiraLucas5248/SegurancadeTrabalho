@@ -1,12 +1,10 @@
-// MENU MOBILE
 const btn = document.querySelector('.menu-toggle');
-const nav = document.querySelector('nav');
+const nav = document.querySelector('.nav-menu');
 
 btn.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
 
-// SCROLL SUAVE + FECHAR MENU
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
